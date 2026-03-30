@@ -65,11 +65,13 @@
   "devDependencies": {
     "@angular/language-service": "^20.1.0",
     "@eslint/js": "9.33.0",
+    "@types/babel__traverse": "7.17.1",
     "@types/express-serve-static-core": "^4.17.9",
     "@types/file-saver": "^2.0.1",
     "@types/jasmine": "~5.1.0",
     "@types/jasminewd2": "^2.0.10",
     "@types/jwt-decode": "^2.2.1",
+    "@types/lodash": "4.14.182",
     "@types/node": "^20.17.19",
     "@types/socket.io-client": "^1.4.33",
     "angular-eslint": "^20.1.0",
