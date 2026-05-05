@@ -27,7 +27,7 @@ jobs:
         cache: npm
 
     - name: Install dependencies
-      run: npm install --package-lock-only --legacy-peer-deps
+      run: npm install --legacy-peer-deps --no-audit --no-fun --ignore-scripts
 
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@v3
